@@ -1,6 +1,7 @@
 import { useReducer } from "react";
 import { TOUR_REDUCER_TYPE } from "../utils/constans";
 import { reducer } from "../utils/generals/reducer";
+
 import { initialState } from "../utils/generals/initialState";
 
 export const useDispachTour = () => {
